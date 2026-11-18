@@ -1,4 +1,4 @@
-const CACHE = 'life-in-motion-v2';
+const CACHE = 'life-in-motion-v3';
 const SHELL = [
   './',
   './index.html',
@@ -12,7 +12,13 @@ const SHELL = [
   './imagens/sala-pilates.jpg',
   './fisioterapia-taubate/',
   './pilates-taubate/',
-  './musculacao-taubate/'
+  './musculacao-taubate/',
+  './treinos/',
+  './treinos/treino.js',
+  './treinos/historico/',
+  './treinos/mobilidade-para-o-dia-a-dia/',
+  './treinos/fortalecimento-para-iniciantes/',
+  './treinos/treino-em-casa-sem-equipamento/'
 ];
 
 self.addEventListener('install', (e) => {
